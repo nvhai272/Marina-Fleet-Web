@@ -107,6 +107,6 @@ if (isset($_POST['submit'])) {
       Comment:<br>
       <textarea name="comment" required></textarea>
       <br><br>
-      <button name="submit">Comment</button><a href="home page.php">Go Back Home Page</a>
+      <button name="submit">Comment</button><a href="index.php">Go Back Home Page</a>
     
   </form>

@@ -167,7 +167,7 @@
   </div>
 
   <?php
-  $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
+  $c = mysqli_connect('sql205.infinityfree.com', 'if0_37764859', '4rnvkcAX2q7P', 'if0_37764859_XXX');
   $s = "SELECT * FROM news ORDER BY id DESC LIMIT 3";
   $r = mysqli_query($c, $s);
   ?>

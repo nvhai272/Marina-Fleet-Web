@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="./icon/fontawesome/css/all.min.css">
 <?php
 $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-if (isset($_GET['action']) && isset($_GET['id']) && $_GET['action'] == 'delete') {
+  if (isset($_GET['action']) && isset($_GET['id']) && $_GET['action'] == 'delete') {
     $s = "DELETE FROM assess WHERE id =" . $_GET['id'];
     mysqli_query($c, $s);
 }

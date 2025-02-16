@@ -43,10 +43,10 @@
   </div>
 
   <ul id="menu" style="margin:0;padding:0">
-    <li class="dropdown home"><a href="home page.php" style="background-color: rgb(32, 153, 247);color:rgb(230, 232, 238)"><i class="fas fa-home"></i>Home</a></li>
+    <li class="dropdown home"><a href="index.php" style="background-color: rgb(32, 153, 247);color:rgb(230, 232, 238)"><i class="fas fa-home"></i>Home</a></li>
     <li class="dropdown"><a href="#"><i class="fas fa-chevron-down"></i>Các dịch vụ</a>
       <div class="dropdown-content">
-        <a href="home page.php">Đặt tiệc - Ăn tối</a>
+        <a href="index.php">Đặt tiệc - Ăn tối</a>
         <a href="Rent Yatch.php">Tàu - Du thuyền</a>
         <a href="chualam.php">Tour du lịch</a>
       </div>
@@ -363,8 +363,8 @@
 
 </html>
 <?php
-$c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-if (isset($_POST['submit'])) {
+  $c = mysqli_connect('sql205.infinityfree.com', 'if0_37764859', '4rnvkcAX2q7P', 'if0_37764859_XXX');
+  if (isset($_POST['submit'])) {
   $name = $_POST["name"];
   $phone = $_POST["phone"];
   $address = $_POST["address"];

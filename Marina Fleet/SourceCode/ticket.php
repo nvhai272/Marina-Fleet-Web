@@ -112,7 +112,7 @@
     <p>Thông tin đăng kí sẽ được gửi về email cá nhân và số điện thoại đăng ký của quý khách.<br>
     <br> Vui lòng nhập mã xác thực số điện thoại để nhận thông tin vé: </p>
     <input type="number"> <input type="submit" value="Gửi lại mã"><br><br>
-    <input type="submit" value="Xác nhận"> <br><br><a href="home page.php"> Về Trang Chủ</a>
+    <input type="submit" value="Xác nhận"> <br><br><a href="index.php"> Về Trang Chủ</a>
 </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-$s = "SELECT * FROM info_contact";
+  $s = "SELECT * FROM info_contact";
 $r = mysqli_query($c,$s);
 ?>
 <h2>Danh sách khách hàng cần tư vấn</h2>

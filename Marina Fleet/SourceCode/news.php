@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="./icon/fontawesome/css/all.min.css">
 <?php
 $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-if (isset($_GET['1']) && $_GET['1'] == 'desc') {
+  if (isset($_GET['1']) && $_GET['1'] == 'desc') {
     $r = mysqli_query($c, "SELECT * FROM news order by id DESC");
 } else {
     isset($_GET['1']) && $_GET['1'] == 'asc';

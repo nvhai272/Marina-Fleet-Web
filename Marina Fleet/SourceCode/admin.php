@@ -13,7 +13,7 @@
 <body>
     <div class="sidebar">
         <ul>
-            <li style="background-color:blanchedalmond "><a href="home page.php"><i class="fas fa-home"> </i> Home Page</a></li>
+            <li style="background-color:blanchedalmond "><a href="index.php"><i class="fas fa-home"> </i> Home Page</a></li>
             <li><i class="fas fa-user"></i> Customers
                 <ul class="submenu">
                     <li><a href="admin.php?page=assess.php"><i class="fas fa-list"></i> Assess List</a></li>

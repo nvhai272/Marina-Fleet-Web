@@ -377,7 +377,7 @@
   <input class="info_input" type="text" placeholder="Địa chỉ" name="address" required>
   <br><br>
   <input type="submit" name="submit" value="Đặt ngay">
-  <button><a href="home page.php">Về Trang Chủ</a></button>
+  <button><a href="index.php">Về Trang Chủ</a></button>
   </form>
 
 </body>

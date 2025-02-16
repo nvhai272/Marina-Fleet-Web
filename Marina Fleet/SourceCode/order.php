@@ -41,7 +41,7 @@
 </style>
 <?php
 $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-if (isset($_GET['action']) && isset($_GET['id']) && $_GET['action'] == 'delete') {
+  if (isset($_GET['action']) && isset($_GET['id']) && $_GET['action'] == 'delete') {
     $s = "DELETE FROM customers_eat WHERE id =" . $_GET['id'];
     mysqli_query($c, $s);
 }

@@ -80,7 +80,7 @@ echo '
  ' ?>
  <?php
 $c = mysqli_connect('localhost', 'root', '', 'marina_fleet');
-if (isset($_POST['submit'])) {
+  if (isset($_POST['submit'])) {
   $name = $_POST["name"];
   $phone = $_POST["phone"];
   $address = $_POST["address"];
